@@ -3,10 +3,28 @@
 <style>
 
 body {
-background: grey;
-
+background: #23272A;
 }
 
+p {
+text-align: center;
+font-family: Monospace;
+color: white;
+font-size: 18px;
+}
+
+h1 {
+text-align: center;
+font-family: Monospace;
+color: #F37B21;
+font-size: 35px;
+}
+
+#balls {
+font-size: 12px;
+opacity: 50%;
+}
+  
 </style>
 
 <title>redirecting...</title>
@@ -22,12 +40,13 @@ urls[1] = "http://youtube.com";
 
 var random = Math.floor(Math.random()*urls.length);
 
-window.location = urls[random];
+//window.location = urls[random];
 
 </script>
 
-<h1>redirecting you to a random mirror</h1>
+<marquee behavior=scroll direction="left" scrollamount="10"><i><h1>redirecting you to a random mirror..</h1></i></marquee>
 <p>This is a method of trying to keep mesacomplex unblocked. this works basically like this: we have a bunch of different identical versions of mesacomplex, and whenever you go to mesacomplex.tk, you are taken to one of these versions. that way, if one of these versions gets blocked, we can simply remove it from the list of random redirects and you would never notice!</p>
-<p>not being redirected? uh, ig just like, reload or something</p>
+<br>
+<p id="balls">not being redirected? tickle my balls</p>
 </body>
 </html>
