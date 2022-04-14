@@ -14,16 +14,15 @@ background: grey;
 </head>
 <body>
 
-<script>
-const jsonData = {
-"mesacomplex.tk",
-"youtube.com",
-}
-const values = Object.values(jsonData)
+<script type="text/javascript">
 
-const randomValue = values[parseInt(Math.random() * values.length)]
+var urls = new Array();
+urls[0] = "http://mesacomplex.tk";
+urls[1] = "http://youtube.com";
 
-window.location.replace(jsondata);
+var random = Math.floor(Math.random()*urls.length);
+
+window.location = urls[random];
 
 </script>
 
